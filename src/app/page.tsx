@@ -1,5 +1,10 @@
 export default function Home() {
   return (
-    <h1 className="text">Hi</h1>
+    <div className="text">
+       This is the home page.
+       <br/>
+       I have completed the assignment of Next.JS class 3 .
+       <br/><br/><br/>
+    </div>
   );
 }
