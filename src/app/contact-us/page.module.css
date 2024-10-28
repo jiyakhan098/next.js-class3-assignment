@@ -1,0 +1,51 @@
+.parentdiv {
+    background-color: rgb(156, 209, 255);
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 13%;
+    font-family: Georgia;
+    padding: 90px;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 33vw;
+    border-radius: 60px;
+  }
+  .contacts {
+    background-color: aliceblue;
+    border: 3px solid navy;
+    border-radius: 40px;
+    padding: 60px;
+    height: 40vh;
+    width: 29vw;
+    font-size: 70px;
+    margin-bottom: 2%;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 100px;
+    font-family: "Times New Roman";
+  }
+  .links {
+    color: blue;
+  }
+  @media only screen and (max-width:370px){
+    .parentdiv{
+      border-radius: 15px;
+      margin-left: 80px;
+      margin-top: 20px;
+      padding: 10px;
+      width: 200px;
+    }
+    .contacts{
+      border: 1px solid navy;
+      border-radius: 15px;
+      padding: 10px;
+      height: 30vh;
+      width: 180px;
+      font-size: 10px;
+    }
+    .title{
+      font-size: 15px;
+    }
+}

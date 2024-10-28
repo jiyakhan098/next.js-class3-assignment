@@ -3,30 +3,34 @@
 @tailwind utilities;
 
 .header{
-  height: 200px;
+  height: 150px;
   background-color: rgb(88, 88, 255);
   color: white;
 }
 .header-buttons{
+  font-family: Georgia;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 100px;
+  font-size: 70px;
   gap: 40px;
 }
 .text{
   text-align: center;
   margin-left: 20px;
   margin-top: 100px;
-  font-size: 50px;
+  margin-bottom: 30%;
+  font-size: 70px;
+  font-family: Georgia;
 }
 .footer{
-  background-color: bisque;
+  background-color: aliceblue;
   font-size: 70px;
   text-align: right;
-  margin-top: 32%;
   text-decoration: underline;
+  position: sticky;
+  bottom: 0;
 }
 span{
   color: rgb(255, 195, 123);
@@ -35,7 +39,7 @@ span{
 div > a{
   color:blue
 }
-  @media only screen and (max-width:320px){
+  @media only screen and (max-width:370px){
   .header{
     height: 20px;
   }
@@ -53,5 +57,6 @@ div > a{
     margin-top: 10px;
     font-size: 10px;
     margin-left: 5px;
+    margin-bottom: 2px;
   }
 }
